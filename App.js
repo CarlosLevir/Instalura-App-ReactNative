@@ -13,7 +13,7 @@ export default class App extends React.Component {
       data={photos}
       renderItem={ (item) => 
         <View>
-          <Text>{item.user}</Text>
+          <Text>{item.item.user}</Text>
           <Image style={styles.image} source={image} />  
         </View>
         }
